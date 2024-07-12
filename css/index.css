@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif ;
+}
+
+body {
+    background-color: #123142;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 46rem;
+    background-color: #153b50;
+    border-radius: 30px;
+}
+
+main > h1{
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+main #search-session {
+    display: flex;
+}
+
+main #search-session form{
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+main #search-session input {
+    flex: 1;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+}
+
+main #search-session button {
+    background-color: #e9f0c9;
+    color: #123142;
+    border-radius: 6px;
+    border: none;
+    width: 6rem;
+    font-weight: 700;
+    cursor: pointer;
+    height: 45px;
+}
+
+main #infos-temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #infos-temp .dados-climaticos h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+main #infos-temp .dados-climaticos span{
+    font-size: 3rem;
+    font-weight: 500    ;
+}
+
+main #infos-temp  img{
+    width: 140px;
+}
+
+
